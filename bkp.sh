@@ -7,6 +7,7 @@ echo "Diretório não encontrado";
 exit;
 fi
 data=`date +%d%m%y%H%M%S`;
+tar -czvf $data.tar.gz $origem;
 clear;
 echo "-------------Relatorio---------------";
 echo "";
